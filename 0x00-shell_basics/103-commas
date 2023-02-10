@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -p -amvX --group-directories-first
+ls -RpamvX
