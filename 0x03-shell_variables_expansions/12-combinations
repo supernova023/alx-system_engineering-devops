@@ -1,2 +1,2 @@
 #!/bin/bash
-echo {a..n}{a..z}"\n",o{a..n}"\n",o{p..z}"\n",{p..z}{a..z}"\n"
+echo {a..n}{a..z} | tr '''\n' | grep -v "oo"
