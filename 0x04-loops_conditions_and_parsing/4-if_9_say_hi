@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#print Best School 10 times using while
+#print Best School 10 times using while print Hi after the 9th
 i=0
 while [ $i -lt 10 ]
 do
