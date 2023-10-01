@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+#y u no love me
+echo "$$" > /var/run/myscript.pid
+
+delete_func()
+{
+	rm /var/run/myscript.pid
+	exit
+}
+
+while true
+do
+  echo "To infinity and beyond"
+  sleep 2
+  trap 'echo "Y U no love me?!"' SIGINT
+  trap 'echo "I hate the kill command" && delete_func' SIGTERM
+  trap 'delete_func' SIGQUIT
+done
