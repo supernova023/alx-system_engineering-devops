@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#print Best School 10 times using while print Hi after the 9th
+#print bad luck @ i = 3, good luck @ i = 7, else print Best School
 i=0
 while [ $i -lt 10 ]
 do
