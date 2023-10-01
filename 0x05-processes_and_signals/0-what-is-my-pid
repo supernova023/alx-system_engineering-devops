@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-echo "$$" | pgrep bash | awk '{print $1}'
+echo $$
