@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+#print list
+mlis=$(ls)
+for i in $mlis; do
+  echo "$i" | cut -d '-' -f2
+done
